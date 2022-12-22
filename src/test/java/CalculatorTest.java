@@ -1,4 +1,3 @@
-import Steps.MethodsForCalculator;
 import org.openqa.selenium.Keys;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -111,29 +110,29 @@ public class CalculatorTest extends Baze {
 
     @Test
     public  void Test10(){
-        MethodsForCalculator.number0(getDriver());
-        MethodsForCalculator.dot(getDriver());
-        MethodsForCalculator.number1(getDriver());
-        MethodsForCalculator.plus(getDriver());
-        MethodsForCalculator.number2(getDriver());
-        MethodsForCalculator.minus(getDriver());
-        MethodsForCalculator.number3(getDriver());
-        MethodsForCalculator.multiplication(getDriver());
-        MethodsForCalculator.number4(getDriver());
-        MethodsForCalculator.divided(getDriver());
-        MethodsForCalculator.number5(getDriver());
+        number0(getDriver());
+        dot(getDriver());
+        number1(getDriver());
+        plus(getDriver());
+        number2(getDriver());
+        minus(getDriver());
+        number3(getDriver());
+        multiplication(getDriver());
+        number4(getDriver());
+        divided(getDriver());
+        number5(getDriver());
         factorial(getDriver());
-        MethodsForCalculator.plus(getDriver());
-        MethodsForCalculator.number6(getDriver());
-        MethodsForCalculator.minus(getDriver());
-        MethodsForCalculator.number7(getDriver());
-        MethodsForCalculator.multiplication(getDriver());
-        MethodsForCalculator.number8(getDriver());
-        MethodsForCalculator.divided(getDriver());
-        MethodsForCalculator.squareRoot(getDriver());
-        MethodsForCalculator.number9(getDriver());
-        MethodsForCalculator.arithmeticEquals(getDriver());
+        plus(getDriver());
+        number6(getDriver());
+        minus(getDriver());
+        number7(getDriver());
+        multiplication(getDriver());
+        number8(getDriver());
+        divided(getDriver());
+        squareRoot(getDriver());
+        number9(getDriver());
+        arithmeticEquals(getDriver());
 
-        Assert.assertEquals(MethodsForCalculator.getResult(getDriver()), "-10.6666666667");
+        Assert.assertEquals(getResult(getDriver()), "-10.6666666667");
     }
 }
